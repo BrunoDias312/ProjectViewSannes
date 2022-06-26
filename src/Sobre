@@ -1,0 +1,9 @@
+    Empenha usar todo o conhecimento e mescla-lo em um unico lugar de uma forma
+que fique coeso.
+    Nem tudo aqui mostrado pode estar correto e esse projeto pode ser descontunuado a qualquer momento.
+
+    Partes *
+
+        Main - Metodo em que o program ira ser iniciado;
+        Menu.Menu - destina-se a escolha de qual paconte sera rodado - nele deve ter todas as importações dos pacotes
+               criado pelo desenvolvedor.
