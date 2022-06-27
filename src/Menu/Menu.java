@@ -1,5 +1,7 @@
 package Menu;
 import Pacote_NotasAlunos.Array;
+import Timers.TimeRoole;
+
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -44,6 +46,7 @@ public class Menu {
         System.out.println("Faça sua escolha de acordo com o que deseja rodar");
         System.out.println("Escolha: ");
         System.out.println("    1 - Notas para alunos");
+        System.out.println("    2 - Relogio");
         System.out.print("Entrada: ");
         int escolhaUser = entrada.nextInt();
 
@@ -53,6 +56,10 @@ public class Menu {
                 LimparConsole();
                 System.out.println("Sua escolha é " + "1 - notas para alunos.");
                 Array array = new Array();
+                break;
+            case 2:
+                System.out.println("Sua escolha é " + "2 - Relogio");
+                TimeRoole role = new TimeRoole();
                 break;
             default:
                 System.out.println("Opcão invalida.");

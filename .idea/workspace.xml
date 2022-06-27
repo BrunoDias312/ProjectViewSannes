@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="64c383b4-556f-46e1-9c7e-2797e46dd87e" name="Changes" comment="Add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sobre" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sobre" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Timer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Timers/TimeRoole.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +47,7 @@
       <recent name="NotasAlunos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.timed">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ProjectViewSannes" />
@@ -61,6 +64,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TimeRoole" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Timers.TimeRoole" />
+      <module name="ProjectViewSannes" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ffg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ffg" />
       <module name="ProjectViewSannes" />
@@ -68,18 +78,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="timed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="timed" />
-      <module name="ProjectViewSannes" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.timed" />
-        <item itemvalue="Application.ffg" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Menu.TimeRoole" />
+        <item itemvalue="Application.ffg" />
         <item itemvalue="Application.Menu.Menu" />
       </list>
     </recent_temporary>
@@ -107,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656280506687</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add">
+      <created>1656343375276</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656343375276</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

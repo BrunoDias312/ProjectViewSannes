@@ -1,5 +1,4 @@
-    Empenha usar todo o conhecimento e mescla-lo em um unico lugar de uma forma
-que fique coeso.
+    Projetos a parte - Estudo independente
     Nem tudo aqui mostrado pode estar correto e esse projeto pode ser descontunuado a qualquer momento.
 
     Partes *
@@ -7,3 +6,7 @@ que fique coeso.
         Main - Metodo em que o program ira ser iniciado;
         Menu.Menu - destina-se a escolha de qual paconte sera rodado - nele deve ter todas as importações dos pacotes
                criado pelo desenvolvedor.
+        Paconte_NotasAlunos - Uso de Matriz
+        Timers.TimeRoole - pega horario de entrada em 3 variaveis diferente, converte para segundos.
+               depois pega em segundos o tempo que passou. Por fim mostra em horas o horario que é
+               depois da implementação.

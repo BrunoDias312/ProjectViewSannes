@@ -1,8 +1,7 @@
+package Timers;
 import java.util.Scanner;
-
-public class Timer {
-
-    public Timer(){
+public class TimeRoole {
+    public TimeRoole(){
         System.out.println("Horario de entrada: ");
         Scanner entrada = new Scanner(System.in);
         //entrada user
@@ -21,14 +20,18 @@ public class Timer {
         int minutosR = entradaFinal + tempoDecorrido; // somar todos
         System.out.println(minutosR);
 
-        //H - M - S;
+        entrada.close();//Encerrar o Scanner
 
+        //H:M:S;
+        //converte
         int segundos = minutosR;
         int horas = segundos / 3600;
         segundos %= 3600;
         int minutos = segundos / 60;
         segundos %= 60;
-        System.out.print("Tempo passado: ");
+
+        //mostra o horario atual
+        System.out.print("Hora atual: ");
         if (horas > 0)
             System.out.print(horas + ":");
         if (minutos > 0)
